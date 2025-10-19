@@ -5566,6 +5566,135 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="y">256</property>
 			</packing>
 		      </child>
+<<<<<<< HEAD
+		    </widget>
+		    <packing>
+		      <property name="x">0</property>
+		      <property name="y">0</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="tab_expand">False</property>
+		  <property name="tab_fill">True</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkLabel" id="label167">
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Suppression </property>
+		  <property name="use_underline">False</property>
+		  <property name="use_markup">False</property>
+		  <property name="justify">GTK_JUSTIFY_LEFT</property>
+		  <property name="wrap">False</property>
+		  <property name="selectable">False</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		  <property name="width_chars">-1</property>
+		  <property name="single_line_mode">False</property>
+		  <property name="angle">0</property>
+		</widget>
+		<packing>
+		  <property name="type">tab</property>
+		</packing>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="x">56</property>
+	      <property name="y">0</property>
+	    </packing>
+	  </child>
+	</widget>
+	<packing>
+	  <property name="tab_expand">False</property>
+	  <property name="tab_fill">True</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GtkLabel" id="label43">
+	  <property name="visible">True</property>
+	  <property name="label" translatable="yes">Adhérants </property>
+	  <property name="use_underline">False</property>
+	  <property name="use_markup">False</property>
+	  <property name="justify">GTK_JUSTIFY_LEFT</property>
+	  <property name="wrap">False</property>
+	  <property name="selectable">False</property>
+	  <property name="xalign">0.5</property>
+	  <property name="yalign">0.5</property>
+	  <property name="xpad">0</property>
+	  <property name="ypad">0</property>
+	  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+	  <property name="width_chars">-1</property>
+	  <property name="single_line_mode">False</property>
+	  <property name="angle">0</property>
+	</widget>
+	<packing>
+	  <property name="type">tab</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GtkFixed" id="fixed16">
+	  <property name="visible">True</property>
+
+	  <child>
+	    <widget class="GtkNotebook" id="notebook4">
+	      <property name="width_request">976</property>
+	      <property name="height_request">784</property>
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="show_tabs">True</property>
+	      <property name="show_border">True</property>
+	      <property name="tab_pos">GTK_POS_TOP</property>
+	      <property name="scrollable">False</property>
+	      <property name="enable_popup">False</property>
+
+	      <child>
+		<widget class="GtkFixed" id="fixed17">
+		  <property name="visible">True</property>
+
+		  <child>
+		    <widget class="GtkButton" id="button45">
+		      <property name="width_request">130</property>
+		      <property name="height_request">37</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="label" translatable="yes">Ajouter</property>
+		      <property name="use_underline">True</property>
+		      <property name="relief">GTK_RELIEF_NORMAL</property>
+		      <property name="focus_on_click">True</property>
+		    </widget>
+		    <packing>
+		      <property name="x">760</property>
+		      <property name="y">496</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkFixed" id="fixed98">
+		      <property name="width_request">0</property>
+		      <property name="height_request">0</property>
+		      <property name="visible">True</property>
+
+		      <child>
+			<widget class="GtkEntry" id="entry177">
+			  <property name="width_request">160</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">True</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">•</property>
+			  <property name="activates_default">False</property>
+=======
 
 		      <child>
 			<widget class="GtkLabel" id="label371">
@@ -5586,6 +5715,7 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="width_chars">-1</property>
 			  <property name="single_line_mode">False</property>
 			  <property name="angle">0</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</widget>
 			<packing>
 			  <property name="x">50</property>
@@ -5594,6 +5724,11 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkEntry" id="entry179">
+			  <property name="width_request">160</property>
+			  <property name="height_request">27</property>
+=======
 			<widget class="GtkLabel" id="label372">
 			  <property name="width_request">128</property>
 			  <property name="height_request">40</property>
@@ -5623,6 +5758,7 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			<widget class="GtkLabel" id="label373">
 			  <property name="width_request">49</property>
 			  <property name="height_request">17</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">Sexe :</property>
 			  <property name="use_underline">False</property>
@@ -5640,8 +5776,13 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">376</property>
+			  <property name="y">112</property>
+=======
 			  <property name="x">64</property>
 			  <property name="y">384</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
@@ -5666,8 +5807,13 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">376</property>
+			  <property name="y">168</property>
+=======
 			  <property name="x">40</property>
 			  <property name="y">504</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
@@ -5692,8 +5838,13 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">368</property>
+			  <property name="y">408</property>
+=======
 			  <property name="x">64</property>
 			  <property name="y">576</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
@@ -5712,8 +5863,13 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="draw_indicator">True</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">376</property>
+			  <property name="y">472</property>
+=======
 			  <property name="x">440</property>
 			  <property name="y">376</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
@@ -5739,11 +5895,17 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label364">
+			  <property name="width_request">49</property>
+			  <property name="height_request">17</property>
+=======
 			<widget class="GtkLabel" id="label376">
 			  <property name="width_request">56</property>
 			  <property name="height_request">16</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="visible">True</property>
-			  <property name="label" translatable="yes">Nom :</property>
+			  <property name="label" translatable="yes">E-mail :</property>
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5759,12 +5921,84 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">232</property>
+			  <property name="y">576</property>
+=======
 			  <property name="x">56</property>
 			  <property name="y">192</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkSpinButton" id="spinbutton41">
+			  <property name="width_request">60</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="climb_rate">1</property>
+			  <property name="digits">0</property>
+			  <property name="numeric">False</property>
+			  <property name="update_policy">GTK_UPDATE_ALWAYS</property>
+			  <property name="snap_to_ticks">False</property>
+			  <property name="wrap">False</property>
+			  <property name="adjustment">1 0 31 1 10 10</property>
+			</widget>
+			<packing>
+			  <property name="x">376</property>
+			  <property name="y">232</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkSpinButton" id="spinbutton42">
+			  <property name="width_request">60</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="climb_rate">1</property>
+			  <property name="digits">0</property>
+			  <property name="numeric">False</property>
+			  <property name="update_policy">GTK_UPDATE_ALWAYS</property>
+			  <property name="snap_to_ticks">False</property>
+			  <property name="wrap">False</property>
+			  <property name="adjustment">0 0 12 1 10 10</property>
+			</widget>
+			<packing>
+			  <property name="x">432</property>
+			  <property name="y">232</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkSpinButton" id="spinbutton43">
+			  <property name="width_request">60</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="climb_rate">1</property>
+			  <property name="digits">0</property>
+			  <property name="numeric">False</property>
+			  <property name="update_policy">GTK_UPDATE_ALWAYS</property>
+			  <property name="snap_to_ticks">False</property>
+			  <property name="wrap">False</property>
+			  <property name="adjustment">1950 1950 2100 1 10 10</property>
+			</widget>
+			<packing>
+			  <property name="x">488</property>
+			  <property name="y">232</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label363">
+			  <property name="width_request">136</property>
+			  <property name="height_request">40</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">N°Téléphone :</property>
+=======
 			<widget class="GtkLabel" id="label377">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
@@ -5822,6 +6056,7 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label344</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5837,17 +6072,109 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">192</property>
+			  <property name="y">464</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">192</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkRadioButton" id="radiobutton9">
+			  <property name="width_request">116</property>
+			  <property name="height_request">24</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="label" translatable="yes">femme</property>
+			  <property name="use_underline">True</property>
+			  <property name="relief">GTK_RELIEF_NORMAL</property>
+			  <property name="focus_on_click">True</property>
+			  <property name="active">False</property>
+			  <property name="inconsistent">False</property>
+			  <property name="draw_indicator">True</property>
+			</widget>
+			<packing>
+			  <property name="x">472</property>
+			  <property name="y">304</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkRadioButton" id="radiobutton8">
+			  <property name="width_request">116</property>
+			  <property name="height_request">24</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="label" translatable="yes">homme 
+</property>
+			  <property name="use_underline">True</property>
+			  <property name="relief">GTK_RELIEF_NORMAL</property>
+			  <property name="focus_on_click">True</property>
+			  <property name="active">False</property>
+			  <property name="inconsistent">False</property>
+			  <property name="draw_indicator">True</property>
+			</widget>
+			<packing>
+			  <property name="x">352</property>
+			  <property name="y">304</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkCombo" id="combo1">
+			  <property name="width_request">187</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="value_in_list">False</property>
+			  <property name="allow_empty">True</property>
+			  <property name="case_sensitive">False</property>
+			  <property name="enable_arrow_keys">True</property>
+			  <property name="enable_arrows_always">True</property>
+
+			  <child internal-child="entry">
+			    <widget class="GtkEntry" id="combo-entry1">
+			      <property name="visible">True</property>
+			      <property name="can_focus">True</property>
+			      <property name="editable">True</property>
+			      <property name="visibility">True</property>
+			      <property name="max_length">0</property>
+			      <property name="text" translatable="yes"></property>
+			      <property name="has_frame">True</property>
+			      <property name="invisible_char">•</property>
+			      <property name="activates_default">False</property>
+			    </widget>
+			  </child>
+
+			  <child internal-child="list">
+			    <widget class="GtkList" id="combo-list1">
+			      <property name="visible">True</property>
+			      <property name="selection_mode">GTK_SELECTION_BROWSE</property>
+			    </widget>
+			  </child>
+			</widget>
+			<packing>
+			  <property name="x">352</property>
+			  <property name="y">352</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label360">
+			  <property name="width_request">96</property>
+			  <property name="height_request">24</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Prénom :</property>
+=======
 			<widget class="GtkLabel" id="label380">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label345</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5863,17 +6190,30 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">200</property>
+			  <property name="y">168</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">256</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label359">
+			  <property name="width_request">56</property>
+			  <property name="height_request">16</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Nom :</property>
+=======
 			<widget class="GtkLabel" id="label381">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label346</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5889,17 +6229,30 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">216</property>
+			  <property name="y">120</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">320</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label367">
+			  <property name="width_request">160</property>
+			  <property name="height_request">32</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Identifiant  :</property>
+=======
 			<widget class="GtkLabel" id="label382">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label347</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5915,17 +6268,30 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">184</property>
+			  <property name="y">56</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">384</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label361">
+			  <property name="width_request">128</property>
+			  <property name="height_request">40</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Date de naissance :</property>
+=======
 			<widget class="GtkLabel" id="label383">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label348</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5941,17 +6307,30 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">208</property>
+			  <property name="y">216</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">448</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label362">
+			  <property name="width_request">49</property>
+			  <property name="height_request">17</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Sexe :</property>
+=======
 			<widget class="GtkLabel" id="label384">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label349</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -5967,25 +6346,38 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">208</property>
+			  <property name="y">304</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">512</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label676">
+			  <property name="width_request">88</property>
+			  <property name="height_request">24</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">specialite</property>
+=======
 			<widget class="GtkLabel" id="label385">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label350</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
 			  <property name="wrap">False</property>
 			  <property name="selectable">False</property>
 			  <property name="xalign">0.5</property>
-			  <property name="yalign">0.5</property>
-			  <property name="xpad">0</property>
+			  <property name="yalign">0.610000014305</property>
+			  <property name="xpad">1</property>
 			  <property name="ypad">0</property>
 			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
 			  <property name="width_chars">-1</property>
@@ -5993,17 +6385,30 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">192</property>
+			  <property name="y">352</property>
+=======
 			  <property name="x">220</property>
 			  <property name="y">576</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			</packing>
 		      </child>
 
 		      <child>
+<<<<<<< HEAD
+			<widget class="GtkLabel" id="label366">
+			  <property name="width_request">88</property>
+			  <property name="height_request">24</property>
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Adresse :</property>
+=======
 			<widget class="GtkLabel" id="label386">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label351</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="use_underline">False</property>
 			  <property name="use_markup">False</property>
 			  <property name="justify">GTK_JUSTIFY_LEFT</property>
@@ -6019,6 +6424,118 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="angle">0</property>
 			</widget>
 			<packing>
+<<<<<<< HEAD
+			  <property name="x">192</property>
+			  <property name="y">408</property>
+			</packing>
+		      </child>
+		    </widget>
+		    <packing>
+		      <property name="x">112</property>
+		      <property name="y">8</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkButton" id="button72">
+		      <property name="width_request">88</property>
+		      <property name="height_request">32</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="label" translatable="yes">annuler
+</property>
+		      <property name="use_underline">True</property>
+		      <property name="relief">GTK_RELIEF_NORMAL</property>
+		      <property name="focus_on_click">True</property>
+		    </widget>
+		    <packing>
+		      <property name="x">832</property>
+		      <property name="y">360</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkButton" id="button71">
+		      <property name="width_request">96</property>
+		      <property name="height_request">32</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="label" translatable="yes">sauvgarder
+</property>
+		      <property name="use_underline">True</property>
+		      <property name="relief">GTK_RELIEF_NORMAL</property>
+		      <property name="focus_on_click">True</property>
+		    </widget>
+		    <packing>
+		      <property name="x">720</property>
+		      <property name="y">360</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="tab_expand">False</property>
+		  <property name="tab_fill">True</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkLabel" id="label62">
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Ajout</property>
+		  <property name="use_underline">False</property>
+		  <property name="use_markup">False</property>
+		  <property name="justify">GTK_JUSTIFY_LEFT</property>
+		  <property name="wrap">False</property>
+		  <property name="selectable">False</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		  <property name="width_chars">-1</property>
+		  <property name="single_line_mode">False</property>
+		  <property name="angle">0</property>
+		</widget>
+		<packing>
+		  <property name="type">tab</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkFixed" id="fixed18">
+		  <property name="visible">True</property>
+
+		  <child>
+		    <widget class="GtkFixed" id="fixed21">
+		      <property name="width_request">0</property>
+		      <property name="height_request">0</property>
+		      <property name="visible">True</property>
+
+		      <child>
+			<widget class="GtkEntry" id="entry27">
+			  <property name="width_request">160</property>
+			  <property name="height_request">27</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">True</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">•</property>
+			  <property name="activates_default">False</property>
+			</widget>
+			<packing>
+			  <property name="x">184</property>
+			  <property name="y">24</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label71">
+			  <property name="width_request">144</property>
+			  <property name="height_request">24</property>
+=======
 			  <property name="x">560</property>
 			  <property name="y">56</property>
 			</packing>
@@ -6028,6 +6545,7 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			<widget class="GtkLabel" id="label387">
 			  <property name="width_request">57</property>
 			  <property name="height_request">17</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 			  <property name="visible">True</property>
 			  <property name="label" translatable="yes">label352</property>
 			  <property name="use_underline">False</property>
@@ -6049,6 +6567,31 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="y">120</property>
 			</packing>
 		      </child>
+<<<<<<< HEAD
+		    </widget>
+		    <packing>
+		      <property name="x">0</property>
+		      <property name="y">0</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkButton" id="button47">
+		      <property name="width_request">128</property>
+		      <property name="height_request">32</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="label" translatable="yes">Modifier</property>
+		      <property name="use_underline">True</property>
+		      <property name="relief">GTK_RELIEF_NORMAL</property>
+		      <property name="focus_on_click">True</property>
+		    </widget>
+		    <packing>
+		      <property name="x">584</property>
+		      <property name="y">24</property>
+		    </packing>
+		  </child>
+=======
 
 		      <child>
 			<widget class="GtkLabel" id="label388">
@@ -6075,6 +6618,7 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 			  <property name="y">184</property>
 			</packing>
 		      </child>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 
 		      <child>
 			<widget class="GtkLabel" id="label389">
@@ -7337,6 +7881,59 @@ Gabes</property>
 		      <property name="y">392</property>
 		    </packing>
 		  </child>
+<<<<<<< HEAD
+
+		  <child>
+		    <widget class="GtkButton" id="button46">
+		      <property name="width_request">128</property>
+		      <property name="height_request">32</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="label" translatable="yes">Rechercher </property>
+		      <property name="use_underline">True</property>
+		      <property name="relief">GTK_RELIEF_NORMAL</property>
+		      <property name="focus_on_click">True</property>
+		    </widget>
+		    <packing>
+		      <property name="x">432</property>
+		      <property name="y">24</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="tab_expand">False</property>
+		  <property name="tab_fill">True</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkLabel" id="label63">
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Modification</property>
+		  <property name="use_underline">False</property>
+		  <property name="use_markup">False</property>
+		  <property name="justify">GTK_JUSTIFY_LEFT</property>
+		  <property name="wrap">False</property>
+		  <property name="selectable">False</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		  <property name="width_chars">-1</property>
+		  <property name="single_line_mode">False</property>
+		  <property name="angle">0</property>
+		</widget>
+		<packing>
+		  <property name="type">tab</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkFixed" id="fixed19">
+		  <property name="visible">True</property>
+=======
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 
 		  <child>
 		    <widget class="GtkTreeView" id="treeview5">
@@ -17626,6 +18223,16 @@ Aerobic</property>
   </child>
 </widget>
 
+<<<<<<< HEAD
+<widget class="GtkInputDialog" id="inputdialog1">
+  <property name="border_width">5</property>
+  <property name="visible">True</property>
+  <property name="title" translatable="yes">Entrée</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_NONE</property>
+  <property name="modal">False</property>
+  <property name="resizable">True</property>
+=======
 <widget class="GtkColorSelectionDialog" id="colorselectiondialog2">
   <property name="border_width">5</property>
   <property name="visible">True</property>
@@ -17634,6 +18241,7 @@ Aerobic</property>
   <property name="window_position">GTK_WIN_POS_NONE</property>
   <property name="modal">False</property>
   <property name="resizable">False</property>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
   <property name="destroy_with_parent">False</property>
   <property name="decorated">True</property>
   <property name="skip_taskbar_hint">False</property>
@@ -17643,8 +18251,13 @@ Aerobic</property>
   <property name="focus_on_map">True</property>
   <property name="urgency_hint">False</property>
 
+<<<<<<< HEAD
+  <child internal-child="save_button">
+    <widget class="GtkButton" id="save_button1">
+=======
   <child internal-child="cancel_button">
     <widget class="GtkButton" id="cancel_button3">
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
       <property name="visible">True</property>
       <property name="can_default">True</property>
       <property name="can_focus">True</property>
@@ -17653,8 +18266,13 @@ Aerobic</property>
     </widget>
   </child>
 
+<<<<<<< HEAD
+  <child internal-child="close_button">
+    <widget class="GtkButton" id="close_button1">
+=======
   <child internal-child="ok_button">
     <widget class="GtkButton" id="ok_button3">
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
       <property name="visible">True</property>
       <property name="can_default">True</property>
       <property name="can_focus">True</property>
@@ -17662,6 +18280,8 @@ Aerobic</property>
       <property name="focus_on_click">True</property>
     </widget>
   </child>
+<<<<<<< HEAD
+=======
 
   <child internal-child="help_button">
     <widget class="GtkButton" id="help_button2">
@@ -17686,6 +18306,7 @@ Aerobic</property>
       <property name="fill">True</property>
     </packing>
   </child>
+>>>>>>> 5bcaef631b9d5f5c56f8acfceabba57c76325ec5
 </widget>
 
 </glade-interface>
