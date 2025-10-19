@@ -7630,26 +7630,6 @@ Le cardio training regroupe l'ensemble de disciplines mettant à contribuer
 		  </child>
 
 		  <child>
-		    <widget class="GtkEntry" id="entry287">
-		      <property name="width_request">160</property>
-		      <property name="height_request">27</property>
-		      <property name="visible">True</property>
-		      <property name="can_focus">True</property>
-		      <property name="editable">True</property>
-		      <property name="visibility">True</property>
-		      <property name="max_length">0</property>
-		      <property name="text" translatable="yes"></property>
-		      <property name="has_frame">True</property>
-		      <property name="invisible_char">•</property>
-		      <property name="activates_default">False</property>
-		    </widget>
-		    <packing>
-		      <property name="x">280</property>
-		      <property name="y">40</property>
-		    </packing>
-		  </child>
-
-		  <child>
 		    <widget class="GtkLabel" id="label728">
 		      <property name="width_request">128</property>
 		      <property name="height_request">24</property>
@@ -8030,6 +8010,26 @@ Tunis
 		    <packing>
 		      <property name="x">184</property>
 		      <property name="y">744</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkEntry" id="entry293">
+		      <property name="width_request">160</property>
+		      <property name="height_request">27</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="editable">True</property>
+		      <property name="visibility">True</property>
+		      <property name="max_length">0</property>
+		      <property name="text" translatable="yes"></property>
+		      <property name="has_frame">True</property>
+		      <property name="invisible_char">•</property>
+		      <property name="activates_default">False</property>
+		    </widget>
+		    <packing>
+		      <property name="x">280</property>
+		      <property name="y">40</property>
 		    </packing>
 		  </child>
 		</widget>
